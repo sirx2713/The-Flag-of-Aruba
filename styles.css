@@ -1,0 +1,29 @@
+h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#main-container{
+    position: relative;
+    height: 600px;
+    width: 1200px;
+    background-color: #418FDE;
+}
+#main-container > img{
+    position: absolute;
+    top: -120px;
+    left: 10px;
+}
+#main-container > #yellow-line1{
+    position: absolute;
+    top: 450px;
+    height: 25px;
+    width: 1200px;
+    background-color: #FBE122;
+}
+#main-container > #yellow-line2{
+    position: absolute;
+    top: 500px;
+    height: 25px;
+    width: 1200px;
+    background-color: #FBE122;
+}
